@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-link ul{
+    margin-bottom: 0rem;
+    margin-top: 0;
+}
+.logo{
+    margin: 39px 0;
+}
+.nav ul li{
+    display: inline-block;
+    height: 114px;
+    line-height: 114px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: -webkit-linear-gradient(#FFC000, #FF8A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+    /* margin:  0 21px; */
+    /* padding: 0px 5px; */
+    border-bottom: 3px solid #FF8A00;
+}
+.nav ul li a{
+    padding: 0px 30px;
+    /* margin:  2px; */
+    text-decoration: none;
+}
+
+.nav-link ul{
+    padding: 0 0 0 100px;
+}
+.nav button{
+    padding: 17px 39px;
+    border-radius: 100px;
+    margin-left: 110px;
+    border: none;
+    background: rgb(255,192,0);
+    background: linear-gradient(0deg, rgba(255,192,0,1) 0%, rgba(255,138,0,1) 100%);
+    color: white;
+}
+.baner{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.banericons{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.baner h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    margin-top: 129px;
+    position: absolute;
+    width: 40%;
+    letter-spacing: 1px;
+}
+.baner p{
+    color: white;
+    margin-top: 320px;
+    position: absolute;
+    width: 30%;
+}
+.baner button{
+    border: none;
+    background-color: white;
+    color:rgba(255,192,0,1) ;
+    position: absolute;
+    margin-top: 400px;
+    border-radius: 100px;
+    padding: 17px 52px;
+}
+.main-center{
+    height: 802px;
+}
+.main{
+    background-color: #FFF7DF;
+}
+.main .main-item{
+    display: inline-block;
+    color: #5c5c5c;
+    width: 33%;
+}
+.main .main-item img{
+    margin-top: 138px;
+}
+.main .main-item h3{
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+.main .main-item p{
+    font-size: 14px;
+    width: 80%;
+}
+.main-center .main-img2{
+    width: 50%;
+    margin-top: -600px;   
+    position: relative;
+}
+.main-center .main-img1{
+    width: 51%;
+    margin-top: -600px;
+    position: absolute;
+}
+.main-text{
+    float: right;;
+    margin-top: -600px;
+    width: 35%; 
+    position: relative;
+    color: #5c5c5c;
+}
+.main-text h1{
+    font-size: 40px;
+    color: rgba(255,192,0,1);
+}
+.main-text h1 samp{
+    color:  rgba(255,138,0,1);
+    font-weight: bold;
+}
+.main-text button{
+    border: none;
+    background: rgb(255,192,0);
+    background: linear-gradient(0deg, rgba(255,192,0,1) 0%, rgba(255,138,0,1) 100%);
+    color:white ;
+    position: absolute;
+    /* margin-top: 400px; */
+    border-radius: 100px;
+    padding: 17px 52px;
+}
+.main-item4{
+    margin-top: 300px;
+    position: relative;
+}
+.main .main2 img{
+    margin-bottom: 500px;
+    position: relative;
+}
