@@ -78,9 +78,10 @@ body{
     padding: 17px 52px;
 }
 .main-center{
-    height: 802px;
+    height: 452px;
+    /* position: relative; */
 }
-.main{
+.main-center{
     background-color: #FFF7DF;
 }
 .main .main-item{
@@ -102,17 +103,14 @@ body{
 }
 .main-center .main-img2{
     width: 50%;
-    margin-top: -600px;   
-    position: relative;
+    position: absolute;
 }
 .main-center .main-img1{
     width: 51%;
-    margin-top: -600px;
     position: absolute;
 }
 .main-text{
     float: right;;
-    margin-top: -600px;
     width: 35%; 
     position: relative;
     color: #5c5c5c;
@@ -135,11 +133,85 @@ body{
     border-radius: 100px;
     padding: 17px 52px;
 }
-.main-item4{
-    margin-top: 300px;
-    position: relative;
-}
+
 .main .main2 img{
-    margin-bottom: 500px;
-    position: relative;
+    position: absolute;
 }
+
+.main2 .main-text2{
+    position: relative;
+    width: 33%;
+    padding-top: 80px;
+    color: white;
+}
+.main2 .main-text2 button{
+    border: none;
+    background-color: white;
+    color:rgba(255,192,0,1) ;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 100px;
+    padding: 17px 52px;
+}
+.main2 .main-video{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: -300px;
+}
+.courses-main{
+    margin-top: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.course-menu ul li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;}
+.course-menu ul li a{
+    color: #5c5c5c;
+}
+    .course-menu ul li a:hover{
+    color:  #FF8A00;
+}
+.course-menu ul li a{
+    padding: 0px 30px;
+    /* margin:  2px; */
+    text-decoration: none;
+}
+.card-body{
+    background: rgb(255,192,0);
+    background: linear-gradient(10deg, rgba(255,192,0,1) 20%, rgba(255,138,0,1) 100%);
+    color: white;
+}
+.card h5{
+    float: right;
+    position:absolute;
+    padding: 3px 9px;
+    background: rgb(255,192,0);
+    background: linear-gradient(10deg, rgba(255,192,0,1) 20%, rgba(255,138,0,1) 100%);
+}
+.btny{
+    border: none;
+    background-color: rgba(255,192,0,1);
+    color:white ;
+    position: absolute;
+    border-radius: 100px;
+    padding: 17px 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
